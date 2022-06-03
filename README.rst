@@ -16,10 +16,16 @@ Usage
 
 Plotting functions implemented
 
-**plot_series**
-**plot_bar**
-**plot_combo_series**
-**plot_pie**
-**plot_scatter**
-**plot_dist**
-**plot_area**
+- **plot_series**
+
+- **plot_bar**
+
+- **plot_combo_series**
+
+- **plot_pie**
+
+- **plot_scatter**
+
+- **plot_dist**
+
+- **plot_area**
