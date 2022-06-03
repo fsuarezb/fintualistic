@@ -12,4 +12,4 @@ Usage
 
 .. code-block:: bash
 
-    >>> from finstualistic import *
+    >>> from fintualistic import *
