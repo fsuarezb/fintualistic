@@ -13,3 +13,13 @@ Usage
 .. code-block:: bash
 
     >>> from fintualistic import *
+
+Plotting functions implemented
+
+**plot_series**
+**plot_bar**
+**plot_combo_series**
+**plot_pie**
+**plot_scatter**
+**plot_dist**
+**plot_area**

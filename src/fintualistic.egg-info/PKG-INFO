@@ -1,11 +1,26 @@
-Metadata-Version: 1.0
+Metadata-Version: 2.1
 Name: fintualistic
-Version: 0.2
+Version: 0.3
 Summary: UNKNOWN
 Home-page: https://github.com/fsuarezb/fintualistic
 Author: Fernando Suarez
 Author-email: fsuarez1@uc.cl
 License: UNKNOWN
-Description: UNKNOWN
+Description: Fintualistic
+        ===============
+        This project is intended to solve a basic problem for fintualees: plotting. With this library a python programmer will be able to plot their charts with a fintualistic style, perfect for fintualist articles, presentations and Twitter threads.
+        
+        Installing
+        ============
+        
+            pip install fintualistic
+        
+        Usage
+        =====
+        
+        .. code-block:: bash
+        
+            >>> from fintualistic import *
 Keywords: fintual fintualistic
 Platform: UNKNOWN
+Description-Content-Type: text/markdown
