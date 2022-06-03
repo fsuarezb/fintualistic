@@ -6,7 +6,7 @@ long_description = (this_directory / "README.rst").read_text()
 
 setup(
     name='fintualistic',
-    version='0.3.2',
+    version='0.3.3',
     author="Fernando Suarez",
     author_email='fsuarez1@uc.cl',
     packages=find_packages('src'),
