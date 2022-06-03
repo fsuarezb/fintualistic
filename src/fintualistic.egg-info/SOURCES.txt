@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+src/fintualistic.egg-info/PKG-INFO
+src/fintualistic.egg-info/SOURCES.txt
+src/fintualistic.egg-info/dependency_links.txt
+src/fintualistic.egg-info/requires.txt
+src/fintualistic.egg-info/top_level.txt
