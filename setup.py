@@ -13,7 +13,7 @@ setup(
 
 setup(
     name='fintualistic',
-    version='0.1',
+    version='0.2',
     author="Fernando Suarez",
     author_email='fsuarez1@uc.cl',
     packages=find_packages('src'),
