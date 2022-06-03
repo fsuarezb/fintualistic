@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: fintualistic
-Version: 0.3
+Version: 0.3.1
 Summary: UNKNOWN
 Home-page: https://github.com/fsuarezb/fintualistic
 Author: Fernando Suarez
@@ -21,6 +21,22 @@ Description: Fintualistic
         .. code-block:: bash
         
             >>> from fintualistic import *
+        
+        Plotting functions implemented
+        
+        - **plot_series**
+        
+        - **plot_bar**
+        
+        - **plot_combo_series**
+        
+        - **plot_pie**
+        
+        - **plot_scatter**
+        
+        - **plot_dist**
+        
+        - **plot_area**
 Keywords: fintual fintualistic
 Platform: UNKNOWN
 Description-Content-Type: text/markdown
