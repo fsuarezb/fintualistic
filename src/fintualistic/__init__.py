@@ -105,13 +105,12 @@ def plot_series(
                    )
 
     fig.update_xaxes(
-                    showline=False,
+                    zeroline=False,
                     gridcolor='lightgray',
                     tickfont={"size": tick_size})
     fig.update_yaxes(
-                    showline=False,
+                    zeroline=False,
                     gridcolor='lightgray',
-                    zerolinecolor='#F3F6FA',
                     tickfont={"size": tick_size})
     if is_series:
         fig.update_layout(showlegend=False)
@@ -211,13 +210,12 @@ def plot_bar(
     fig.update_traces(textfont_size=label_size)
 
     fig.update_xaxes(
-                    showline=False,
+                    zeroline=False,
                     gridcolor='lightgray',
                     tickfont={"size": tick_size})
     fig.update_yaxes(
-                    showline=False,
+                    zeroline=False,
                     gridcolor='lightgray',
-                    zerolinecolor='#F3F6FA',
                     tickfont={"size": tick_size}
                     )
     if save:
@@ -697,12 +695,14 @@ def plot_area(
     fig.update_xaxes(
                     showline=False,
                     gridcolor='lightgray',
+                    zeroline=False,
                     tickfont={"size": tick_size})
     fig.update_yaxes(
                     showline=False,
                     gridcolor='lightgray',
-                    zerolinecolor='#F3F6FA',
+                    zeroline=False,
                     tickfont={"size": tick_size})
     if save:
         fig.write_html(imgname + '.html')
     fig.show()
+

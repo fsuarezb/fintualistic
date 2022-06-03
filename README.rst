@@ -12,7 +12,10 @@ Usage
 
 .. code-block:: bash
 
-    >>> from fintualistic import *
+    >>> import fintualistic as fl
+    >>> import pandas as pd
+    >>> series = pd.Series([100, 105, 103, 107, 115, 120])
+    >>> fl.plot_series(series)
 
 Plotting functions implemented
 
