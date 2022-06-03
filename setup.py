@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='fintualistic',
-    version='0.0',
+    version='0.1',
     author="Fernando Suarez",
     author_email='fsuarez1@uc.cl',
     packages=find_packages('src'),
