@@ -239,7 +239,7 @@ def plot_combo_series(
                 tick_size=20
                 ):
     """
-    Plots two pandas Series as line charts, bot in differente axis.
+    Plots two pandas Series as line charts, both in differente axis.
     :param serie_1: pandas serie
         serie with the first timeseries to plot
     :param serie_2: pandas serie
