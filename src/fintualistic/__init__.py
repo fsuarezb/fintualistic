@@ -31,8 +31,8 @@ def plot_series(
                 tick_size=20
                 ):
     """
-    Plots a set of series with a fintualistic style, columns
-    are going to be displayed as legend
+    Plots a pandas Serie or Dataframe as a line chart,
+    columns are going to be displayed as legend.
     :param series: dataframe
         pandas dataframe or series with timeseries,
         each column represents a serie
@@ -137,8 +137,8 @@ def plot_bar(
             bar_labels=True
             ):
     """
-    Plots a set of series with a fintualistic style, columns
-    are going to be displayed as legend
+    Plots a pandas Serie or Dataframe as a bar chart,
+    columns are going to be displayed as legend.
     :param data: pandas dataframe or series
         dataframe or series with the data to plot
     :param title: str, default: 'Titulo'
@@ -239,8 +239,7 @@ def plot_combo_series(
                 tick_size=20
                 ):
     """
-    Plots a set of series with a fintualistic style, columns
-    are going to be displayed as legend
+    Plots two pandas Series as line charts, bot in differente axis.
     :param serie_1: pandas serie
         serie with the first timeseries to plot
     :param serie_2: pandas serie
@@ -357,8 +356,7 @@ def plot_pie(
                 label_size=22,
                 ):
     """
-    Plots a set of series with a fintualistic style, columns
-    are going to be displayed as legend
+    Plots a pandas Serie as a pie chart with labels.
     :param series: dataframe
         dataframe with series, each column represents a serie
     :param title: str, default: 'Titulo'
@@ -424,8 +422,7 @@ def plot_scatter(
                 tick_size=20
                 ):
     """
-    Plots a set of series with a fintualistic style, columns
-    are going to be displayed as legend
+    Plots two pandas Series in a scatter plot, regression line is optional.
     :param serie_1: pandas serie
         serie with the first series to plot, axis x
     :param serie_2: pandas serie
@@ -527,8 +524,7 @@ def plot_dist(
                 legend_size=30
                 ):
     """
-    Plots a set of series with a fintualistic style, columns
-    are going to be displayed as legend
+    Plots a pandas Dataframe or Serie as a distribution plot.
     :param series: pandas dataframe o serie
         dataframe with the distributions,
         every column is a distribution, also a serie can be passed
@@ -625,8 +621,7 @@ def plot_area(
                 tick_size=20
                 ):
     """
-    Plots a set of series with a fintualistic style, columns
-    are going to be displayed as legend
+    Plots a pandas Serie or Dataframe as an area chart. Stacking is optional.
     :param series: dataframe
         pandas dataframe or series with timeseries,
         each column represents a serie
@@ -705,4 +700,3 @@ def plot_area(
     if save:
         fig.write_html(imgname + '.html')
     fig.show()
-
