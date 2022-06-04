@@ -330,12 +330,11 @@ def plot_combo_series(
                     title_yanchor='top')
 
     fig.update_xaxes(
-                    showline=False,
                     zeroline=False,
                     gridcolor='lightgray',
                     tickfont={"size": tick_size})
     fig.update_yaxes(
-                    showline=False,
+                    zeroline=False,
                     gridcolor='lightgray',
                     zerolinecolor='#F3F6FA',
                     tickfont={"size": tick_size})
