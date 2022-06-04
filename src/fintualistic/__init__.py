@@ -331,6 +331,7 @@ def plot_combo_series(
 
     fig.update_xaxes(
                     showline=False,
+                    zeroline=False,
                     gridcolor='lightgray',
                     tickfont={"size": tick_size})
     fig.update_yaxes(
