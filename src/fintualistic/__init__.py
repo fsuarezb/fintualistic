@@ -27,6 +27,7 @@ def plot_series(
                 marker=False,
                 title_size=35,
                 label_size=22,
+                showlegend=True,
                 legend_size=30,
                 tick_size=20
                 ):
@@ -54,6 +55,8 @@ def plot_series(
         Title font size
     :param lavel_size: int, default: 22
         Axis labels font size
+    :param showlegend: boolean, default: True
+        True if you want to show the legend
     :param legend_size: int, default: 30
         Legend font size
     :param tick_size: int, default: 30
@@ -112,7 +115,7 @@ def plot_series(
                     zeroline=False,
                     gridcolor='lightgray',
                     tickfont={"size": tick_size})
-    if is_series:
+    if is_series or showlegend is False:
         fig.update_layout(showlegend=False)
 
     if save:
